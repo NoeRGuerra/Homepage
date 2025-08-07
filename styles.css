@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #0891b2;
+    display: flex;
+    align-items: center;
+}
+
+.main-img {
+    width: 300px;
+    height: auto;
+}
+
+.intro {
+    position:relative;
+}
+
+.intro > h2 {
+    position:absolute;
+    bottom:5px;
+    color: white;
+}
+
+.about-me {
+    background-color: white;
+    padding:10px;
+}
+
+.about-me h3 {
+    padding: 10px 0px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer {
+    display: flex;
+}
+
+footer>img {
+    width: 300px;
+    height: auto;
+}
