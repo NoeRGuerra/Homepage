@@ -101,6 +101,7 @@ main h2 {
   background-color: darkred;
   height: 250px;
   width: 100%;
+  object-fit: cover;
 }
 
 .project-title {
@@ -128,27 +129,31 @@ main h2 {
 }
 
 footer {
+  max-width: 100%;
+  background-color: rgb(36, 124, 184);
+}
+
+.footer-content {
   color: white;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: rgb(36, 124, 184);
   max-width: 75rem;
   margin: auto;
   padding: 3.75rem;
 }
 
-footer h2 {
+.footer-content h2 {
   font-size: 3rem;
   padding-bottom: 20px;
 }
 
-footer p {
+.footer-content p {
   font-family: Roboto;
   padding-top: 20px;
   font-size: 1.125rem;
 }
 
-footer img {
+.footer-content img {
   max-width: 100%;
 }
 
@@ -156,7 +161,7 @@ footer img {
   color: rgb(41, 41, 41);
 }
 
-footer .social-media-icons {
+.footer-content .social-media-icons {
   padding-top: 10px;
   font-size: 1.5em;
   gap: 20px;
