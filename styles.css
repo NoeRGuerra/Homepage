@@ -157,6 +157,10 @@ footer {
   max-width: 100%;
 }
 
+.footer-content i {
+  color: white;
+}
+
 .fa-brands {
   color: rgb(41, 41, 41);
 }
